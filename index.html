@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AluraGeek</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="https://images2.imgbox.com/c5/36/oBdsHKv9_o.png" alt="AluraGeek Logo" class="logo">
+    </header>
+    
+    <main>
+      <div class="form-container">
+        <h2>Adicionar Produto</h2>
+        <form id="product-form">
+          <input type="text" id="name" placeholder="  Nome" required>
+          <input type="number" id="price" placeholder="  Preço" required>
+          <input type="text" id="image" placeholder="  Imagem (URL)" required>
+          <div class="form-buttons">
+            <button type="submit">Guardar</button>
+            <button type="reset">Limpar</button>
+          </div>
+        </form>
+      </div>
+      
+      <div class="products-container">
+        <h2>Meus Produtos</h2>
+        <div id="products-list"></div>
+      </div>
+    </main>
+    
+    <footer>
+      <p>Desenvolvido por Susanna Mota</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

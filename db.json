@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "name": "Ideas - Gato de Smoking",
+      "price": 959,
+      "image": "https://images2.imgbox.com/93/85/2sVf07qn_o.png"
+    },
+    {
+      "name": "Disney - Divertidamente 2 - Cubos de humor",
+      "price": 349,
+      "image": "https://images2.imgbox.com/20/7f/IxsZHHTz_o.png"
+    },
+    {
+      "name": " Icons - Rádio retrô",
+      "price": 959.99,
+      "image": "https://images2.imgbox.com/4b/a2/Uv5d95Yg_o.png"
+    },
+    {
+      "id": "9c2d",
+      "name": "Classic - Caixa Média LEGO",
+      "price": "349",
+      "image": "https://images2.imgbox.com/6a/fa/KpE5EXv9_o.png"
+    }
+  ]
+}

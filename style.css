@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  /* max-width: 1200px; */
+  /* margin: 0 auto; */
+  /* padding: 0 20px; */
+}
+
+header {
+  background-color: #B5FF00;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 250px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 20px 0; */
+}
+
+.form-container, .products-container {
+  width: 45%;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+h2 {
+  margin-top: 0;
+  font-weight: 400;
+  text-align: center;
+}
+
+form input {
+  width: 100%;
+  padding: 10px 0;
+  margin: 10px 0;
+  background-color: #f1f1f1;
+  color:#aeaeae;
+  border: none;
+  border-radius: 10px;
+}
+form input:focus{
+ outline: 2px solid #B5FF00;
+}
+
+.form-buttons {
+  
+  display: flex;
+  justify-content: space-between;
+  gap:20px;
+}
+
+form button {
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  color:#000000;
+  background-color: #B5FF00;
+  border-radius: 10px;
+  cursor: pointer;
+}
+form button:nth-child(2){
+  color:  #B5FF00;
+  width: 100%;
+  padding: 10px 20px;
+  border: 2px solid  #B5FF00;
+  background-color: #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+form button:active {
+  background-color: #B5FF00;
+}
+
+
+.products-container {
+  overflow-y: auto;
+  height: 400px;
+}
+
+.product-card {
+  display: flex;
+  justify-content: space-around;
+  background: #B5FF00;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.product-info-down{
+display: flex;
+justify-content: space-between;
+
+
+}
+.product-card img {
+  
+  border-radius: 15px;
+  width: 90%;
+  height: 90%;
+  margin-right: 10px;
+}
+
+.product-card h3 {
+  margin:20px 0 0 0;
+  font-size: 24px;
+}
+
+.product-card p {
+  margin: 0;
+}
+
+.product-card button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+footer {
+  background-color: #B5FF00;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px 5px, rgba(0, 0, 0, 0.3) 0px 8px 16px 8px;
+}
+
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+
+  .form-container, .products-container {
+    width: 100%;
+  }
+}
